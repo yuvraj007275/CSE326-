@@ -1,0 +1,292 @@
+
+body{
+    margin: 0;padding: 0;
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(135deg, #dceaff, #a8c9f5, #eaf3ff);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: rgb(34, 34, 128);
+}
+.header h2{
+    color: white;
+}
+
+.header nav a{
+    margin:0px 20px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.home{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.m0{
+    margin: 0px;
+}
+.line-hieght{
+    line-height: 50px;
+}
+
+.home-btn{
+    display: block;
+    margin: 0px auto;
+    padding: 10px;
+    width: 10%;
+    text-align: center;
+    background-color: blue;
+    text-decoration: none;
+    color: white;
+}
+
+.subjects {
+       width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.section-title{
+    margin-top: 100px;
+    margin-bottom: 10px;
+    text-align: center;
+    color: rgb(34, 34, 128);
+    font-size: 35px;
+}
+
+.section-subtitle{
+    text-align: center;
+    margin: 0;
+}
+
+.Card-container{
+    margin: 30px auto;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+
+.subject-card{
+ padding: 25px 18px;
+ background-color: white;
+ border-radius: 10px;
+ width: 180px;
+}
+
+.subject-card .subject-icon,h3, p, button{
+text-align: center;
+}
+
+
+.subject-card button {
+    display: block;
+    margin: 0px auto;
+    padding: 10px 20px;
+    background-color: #193b70;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    margin-top: 12px;
+    transition: 0.3s;
+}
+
+.subject-card button:hover {
+    background: #28569a;
+    transform: scale(1.05);
+}
+
+.tips{
+     width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.section-title-tips{
+    margin: 0px 20px;
+    text-align: center;
+       color: rgb(34, 34, 128);
+    font-size: 35px;
+}
+.tip-card{
+    margin-bottom: 10px;
+ padding: 25px 18px;
+ background-color: white;
+ border-radius: 10px;
+ width: 180px;
+}
+
+.tip-icon{
+    text-align: center;
+
+    
+}
+.tip-icon{
+    text-align: center;
+    
+}
+
+
+.tip-card2 {
+     margin-bottom: 10px;
+ padding: 25px 18px;
+ background-color: white;
+ border-radius: 10px;
+ width: 180px;
+
+}
+
+
+.tip-card2 Button{
+    display: block;
+    margin:  0px auto;
+    padding: 10px 20px;
+    background-color: #193b70;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: 0.2s;
+}
+
+.tip-card2 button:hover {
+    background-color: #28569a;
+    transform: scale(1.05);
+}
+
+.journey{
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.journey-icon{
+    text-align: center;
+}
+
+
+.section-title-journey{
+    margin: 0px 20px;
+    text-align: center;
+    color: rgb(34, 34, 128);
+    font-size: 25   px;
+}
+
+.journey-card{
+     margin-bottom: 10px;
+ padding: 25px 18px;
+ background-color: white;
+ border-radius: 10px;
+ width: 180px;
+}
+
+
+
+.contacts {
+    width: 100%;
+    height: 100vh;
+    margin-top: 30px;
+}
+
+.contacts h1{
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    color: #193b70;
+}
+
+.cont-container{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    width: 85%;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.Left, .right{
+    flex: 1;
+    height: 450px;
+    padding: 25px;
+    border-radius: 12px;
+}
+
+.Left{
+    background-color: rgb(28, 62, 112);
+    color: white;
+}
+
+.Left p{
+    text-align: left;
+}
+
+.right{
+    background-color: white;
+}
+
+.right h2{
+    color: rgb(34, 34, 128);
+}
+
+.right label{
+    display: block;
+    margin-top: 20px;
+}
+
+.right input, .right textarea{
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+}
+
+.right textarea{
+    height: 110px;
+}
+
+.right button{
+    background-color: rgb(34, 34, 128);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+
+.footer-container {
+    width: 100%;
+    max-width: none;
+    box-sizing: border-box;
+    margin: 0;
+    display: grid;
+    
+    gap: 40px;
+    background-color: #28569a;
+}
+.footer-container p{
+    color: white;
+    font-size: 20px;
+}
+
+.footer-bottom {
+    border-top: 1px solid #456080;
+    margin-top: 10px;
+    text-align: center;
+    color: #c5d5ec;
+    font-size: 25px;
+}
